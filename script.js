@@ -82,4 +82,7 @@ ScrollReveal({
 #contact h2,
 #contact ul li,
 #contact img,
-#contact .button`);
+#contact .button,
+#gallery,
+#gallery .card-image,
+#gallery #more`);

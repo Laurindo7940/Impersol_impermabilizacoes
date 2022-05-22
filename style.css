@@ -148,6 +148,7 @@ body.menu-expanded #navigation .logo,
   color: white;
 }
 
+body.menu-expanded #navigation .logo span,
 #navigation.scroll .logo span {
   color: white;
 }
@@ -446,13 +447,6 @@ body.menu-expanded button path {
   border: 2px solid #004285;
   border-radius: .5rem;
 }
-
-#gallery a:hover{
-  background-color: #004285;
-  color: var(--bg-light);
-  transition: 0.3s;
-}
-
 
 /*==== CONTACT ===================================*/
 
@@ -807,6 +801,12 @@ footer .social-links {
 
   #gallery .gallery-container {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  #gallery a:hover{
+    background-color: #004285;
+    color: var(--bg-light);
+    transition: 0.3s;
   }
 
   /*==== CONTATCT ============================*/
