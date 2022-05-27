@@ -2,7 +2,6 @@ window.addEventListener("scroll", onScroll);
 
 onScroll();
 function onScroll() {
-  showNavOnScoll();
   showBackToTopButtonOnScroll();
 
   activateMenuAtCurrentSection(home);
@@ -35,14 +34,6 @@ function activateMenuAtCurrentSection(section) {
   menuElement.classList.remove("active");
   if (sectionBoundaries) {
     menuElement.classList.add("active");
-  }
-}
-
-function showNavOnScoll() {
-  if (scrollY > 0) {
-    navigation.classList.add("scroll");
-  } else {
-    navigation.classList.remove("scroll");
   }
 }
 
