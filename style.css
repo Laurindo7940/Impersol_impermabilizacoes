@@ -397,6 +397,10 @@ body.menu-expanded button path {
   background-color: var(--brand-beige);
 }
 
+#about header h4 {
+  visibility: visible;
+}
+
 #about header h2 {
   margin-bottom: 2.4rem;
 }
@@ -487,7 +491,6 @@ footer {
 
 footer .logo {
   display: inline-block;
-  margin-bottom: 2.4rem;
 }
 
 footer .logo img {
@@ -509,6 +512,10 @@ footer p {
 footer .social-links {
   display: flex;
   justify-content: flex-start;
+}
+
+footer .social-links #instagram {
+  visibility: hidden;
 }
 
 /* BACK TO TOP */
@@ -787,11 +794,15 @@ footer .social-links {
     display: grid;
     grid-template-columns: 48rem 1fr;
     grid-template-areas: 'B A';
-    gap: 6.7rem
+    gap: 6.7rem;
   }
 
   #about .col-a {
     align-self: center;
+  }
+
+  #about h4 {
+    visibility: hidden;
   }
 
   #about .content p {
