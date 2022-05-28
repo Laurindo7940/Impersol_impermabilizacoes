@@ -514,10 +514,6 @@ footer .social-links {
   justify-content: flex-start;
 }
 
-footer .social-links #instagram {
-  visibility: hidden;
-}
-
 /* BACK TO TOP */
 
 #backToTopButton {
