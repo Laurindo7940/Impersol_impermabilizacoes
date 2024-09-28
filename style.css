@@ -359,6 +359,10 @@ body.menu-expanded button path {
   margin-bottom: 0.4rem;
 }
 
+#home .col-a h4 {
+  font-size: 2.0rem;
+}
+
 #home .stats p {
   margin: 0;
   color: var(--primary-color);
@@ -476,6 +480,7 @@ body.menu-expanded button path {
   display: flex;
   align-items: center;
   gap: .8rem;
+  font-size: 20px;
 }
 
 /*======= FOOTER =====================*/
